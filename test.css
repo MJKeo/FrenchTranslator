@@ -1,0 +1,77 @@
+.top {
+    background: black;
+    height: 100vh;
+}
+
+.spacer {
+    height: 25vh;
+}
+
+.bottom {
+    background: black;
+    height: 100vh;
+}
+
+.sticky-bg {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-image: url("http://hdwpro.com/wp-content/uploads/2017/01/3D-Cool-Image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://parisbymouth.com/wp-content/uploads/2015/03/Best-baguette-competition-in-Paris-parisbymouth.com_-e1425986402340.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-box {
+    width: 60%;
+    height: 60%;
+    background: white;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-family: Brush Script Std, cursive;
+    font-size: 4vw;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, rgba(20,0,244,1) 0%, rgba(238,238,238,1) 49%, rgba(255,0,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.output {
+    width: 80%;
+    height: 30%;
+    border: solid;
+    margin-top: 5px;
+}
+
+.submit {
+    font-size: 1vw;
+    border-radius: 25px;
+    border: solid;
+    width: 20%;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    color: white;
+    background: black;
+}
+
+.textarea {
+    width: 80%;
+}
